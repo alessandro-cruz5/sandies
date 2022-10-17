@@ -1,0 +1,117 @@
+header {
+  position: relative;
+  background: #f3d1a9;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background: #008037;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.logo-container {
+  width: 85%;
+  justify-content: center;
+}
+
+.logo-container .logo {
+  justify-content: center;
+}
+
+.side-container {
+  display: flex;
+}
+
+.side-container img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.side-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  //   background: #F3D1A9;
+  background: #ffbd59;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  margin: 0.5rem;
+}
+
+.side-button:hover {
+  cursor: pointer;
+  background: #008037;
+}
+
+.cart-button-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+ul a {
+  display: inline-block;
+  padding: 0.7rem;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 1;
+  background: #008037;
+  display: none;
+}
+
+.menu-container:hover .dropdown {
+  display: block;
+}
+
+.dropdown a:hover {
+  //   width: 100%;
+  background: red;
+  min-width: 8rem;
+}
+
+.menu-container:hover .menu {
+  background-color: #008037;
+}
