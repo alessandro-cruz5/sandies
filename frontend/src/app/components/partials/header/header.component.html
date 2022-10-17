@@ -1,1 +1,45 @@
-<p>header works!</p>
+<!-- <link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/> -->
+
+<header>
+  <div class="container">
+    <div class="logo-container">
+      <a routerLink="/" class="logo"
+        ><img src="/assets/Sandies (5).png" alt="Sandies Logo"
+      /></a>
+    </div>
+    <div class="side-container">
+      <button type="button" class="side-button">
+        <span class="material-icons"> search </span>
+      </button>
+      <button type="button" class="side-button">
+        <span class="material-icons"> person </span>
+      </button>
+      <button type="button" class="side-button">
+        <span class="material-icons"> shopping_bag </span>
+        <span class="cart-button-badge">3</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="nav-container">
+      <nav>
+        <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li class="menu-container">
+            <a routerLink="/dashboard" class="menu">Menu</a>
+            <div class="dropdown">
+              <a routerLink="/sandwiches">Sandwiches</a>
+              <a routerLink="/burgers">Burgers</a>
+              <a routerLink="/hotdogs">Hotdogs</a>
+            </div>
+          </li>
+          <li><a routerLink="/contact-us">Contact Us</a></li>
+          <li><a routerLink="/about-us">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
